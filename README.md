@@ -9,7 +9,7 @@
 # Add electrum wallet master public keys to this section
 # In electrum then go Wallet -> Information to get the mpk
 
-testnet_masterpublickey = replacempktestnet
+mainnet_masterpublickey = replacempkmainnet
 
 # Multiple master public keys maybe added by simply adding another line
 #my_second_wallet = xpubanotherkey
@@ -21,7 +21,7 @@ testnet_masterpublickey = replacempktestnet
 
 [bitcoin-rpc]
 host = 127.0.0.1
-port = 18332
+port = 8332
 #add the bitcoin datadir to search for the .cookie file created by the
 # node, which avoids the need to configure rpc_user/pass
 #leave this option empty to have it look in the default location
@@ -50,7 +50,7 @@ gap_limit = 25
 # 0.0.0.0 to accept connections from any IP
 #127.0.0.1 to accept from only localhost
 host = 127.0.0.1
-port = 50003
+port = 50002
 
 # space-separated whitelist of IP addresses
 # accepts CIDR notation eg 192.168.0.0/16 or 2a01:4f8:1f1::/120
@@ -100,7 +100,7 @@ broadcast_method = own-node
 log_level_stdout = INFO
 
 # Location of log file, leave empty to use the default location in temp dir
-log_file_location = /home/bitcoin/eps_testnet/electrum-personal-server/log.txt
+log_file_location = /home/bitcoin/eps_mainnet/electrum-personal-server/log.txt
 
 # Whether to append to log file or delete and overwrite on startup
 append_log = false
