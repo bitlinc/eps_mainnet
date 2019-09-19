@@ -100,7 +100,7 @@ broadcast_method = own-node
 log_level_stdout = INFO
 
 # Location of log file, leave empty to use the default location in temp dir
-log_file_location = /home/bitcoin/eps_mainnet/electrum-personal-server/log.txt
+log_file_location = /home/pi/eps_mainnet/electrum-personal-server/log.txt
 
 # Whether to append to log file or delete and overwrite on startup
 append_log = false
